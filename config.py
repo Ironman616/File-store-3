@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "c8686adc1a0c7cd17f2201c40123ce91")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002087146692"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "949657126"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5456434042"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -41,7 +41,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @Movie_loverzz</b>")
 try:
-    ADMINS=[6376328008]
+    ADMINS=[949657126]
     for x in (os.environ.get("ADMINS", "949657126").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -63,7 +63,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌ Don't send me messages directly I'm only File Share bot!!\n\n Channel lo search Cheyi bro or Use our Movies search bot 😉»"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6497757690)
+ADMINS.append(949657126)
 
 LOG_FILE_NAME = "codeflixbots.txt"
 
